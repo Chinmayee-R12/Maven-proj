@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url:'https://github.com/Chinmayee-R12/Maven-proj.git',
+                git branch: 'master', url:'https://github.com/Chinmayee-R12/Maven-proj.git',
                 credentialsId: 'github-token'
             }
         }
